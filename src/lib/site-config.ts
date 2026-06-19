@@ -1,49 +1,20 @@
 // Central place for site content placeholders.
-// Swap these out as real copy, links, and work items come in.
+// Swap these out as real copy, links, and assets come in.
 
 export const siteConfig = {
   name: 'Nuno Eufrasio',
+  // Short name shown as the hero headline (rendered with a trailing period).
+  shortName: 'Nuno',
   role: 'Product Designer',
-  intro:
-    'I design clear, useful product experiences — from first sketch to shipped interface.',
   email: 'hello@example.com',
-  social: {
-    linkedin: 'https://www.linkedin.com/in/',
-    github: 'https://github.com/nunoeufrasio',
-  },
-  nav: [
-    { label: 'Work', href: '#work' },
-    { label: 'About', href: '#about' },
-    { label: 'Contact', href: '#contact' },
+  // Link to a hosted résumé (PDF, Drive, etc.). '#' until provided.
+  resumeUrl: '#',
+  // Portrait shown in the hero band. Drop an image into src/assets and
+  // import it here, or point to a public path. Empty = placeholder.
+  portrait: '' as string,
+  // Two intro paragraphs, reused above and below the portrait.
+  intro: [
+    'Passionate about crafting digital user experiences. My work is focused on translating user needs and business requirements into engaging experiences, with usability, accessibility, and aesthetics always in mind.',
+    'Enim cupiditate velit cum atque iusto modi atque non sapiente provident ex ducimus aspernatur animi. Et similique veniam officiis omnis optio voluptatem ut dolorem.',
   ],
 } as const
-
-export type WorkItem = {
-  title: string
-  category: string
-  description: string
-}
-
-// Placeholder portfolio entries — real projects + screenshots to come.
-export const workItems: WorkItem[] = [
-  {
-    title: 'Project One',
-    category: 'Product Design',
-    description: 'Short placeholder description of a selected project.',
-  },
-  {
-    title: 'Project Two',
-    category: 'UX / UI',
-    description: 'Short placeholder description of a selected project.',
-  },
-  {
-    title: 'Project Three',
-    category: 'Design System',
-    description: 'Short placeholder description of a selected project.',
-  },
-  {
-    title: 'Project Four',
-    category: 'Mobile App',
-    description: 'Short placeholder description of a selected project.',
-  },
-]
