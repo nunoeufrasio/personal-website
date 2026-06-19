@@ -12,9 +12,8 @@ export const siteConfig = {
   // Portrait shown in the hero band. Drop an image into src/assets and
   // import it here, or point to a public path. Empty = placeholder.
   portrait: '' as string,
-  // Two intro paragraphs, reused above and below the portrait.
+  // Intro copy, reused above and below the portrait.
   intro: [
     'Passionate about crafting digital user experiences. My work is focused on translating user needs and business requirements into engaging experiences, with usability, accessibility, and aesthetics always in mind.',
-    'Enim cupiditate velit cum atque iusto modi atque non sapiente provident ex ducimus aspernatur animi. Et similique veniam officiis omnis optio voluptatem ut dolorem.',
   ],
 } as const
